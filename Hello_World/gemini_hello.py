@@ -12,7 +12,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 # print(response.txt)
 from google import genai
 
-
+client = genai.Client(api_key=api_key)
 
 interaction = client.interactions.create(
     model="gemini-3.6-flash",

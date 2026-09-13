@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 api_key = os.getenv("open_api_key")
-
+client = OpenAI()
 response=client.chat.completions.create(
     model="gemini-3.6-flash",
     messages=[
