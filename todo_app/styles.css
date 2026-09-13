@@ -1,0 +1,22 @@
+/* body { font-family: Arial, sans-serif; }#todoInput { margin: 10px 0; width: 300px; padding: 10px; }#addTodo { padding: 10px; }ul { list-style-type: none; padding: 0; }li { margin: 5px 0; } */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
